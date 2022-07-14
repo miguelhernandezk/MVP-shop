@@ -9,7 +9,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: Install Dependencies
-        run: npm install
+        run: npm install --force
       - name: Build
         env: 
           PAYPAL_CLIENT_ID: ${{ secrets.PAYPAL_CLIENT_ID }}
