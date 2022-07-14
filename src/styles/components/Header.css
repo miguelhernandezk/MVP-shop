@@ -1,0 +1,42 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.Header-title{
+  margin: 0;
+}
+
+.Header-checkout {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+  margin: 0 0 0 0.5em;
+  position: relative;
+}
+
+.Header-alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+  border-radius: 50%;
+  background-color: #33b13a;
+  position: absolute;
+  left: 20px;
+  top: 16px
+}
+.Header a {
+  text-decoration: none;
+  color: #33b1ff;
+}
+
+.Header-checkout .fas{
+  font-size: 30px;
+}
